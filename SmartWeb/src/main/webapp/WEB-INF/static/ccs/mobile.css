@@ -1,0 +1,51 @@
+/*!
+ * =====================================================
+ * SUI Mobile - http://m.sui.taobao.org/
+ *
+ * =====================================================
+ */
+
+.button-add-device {
+    border-color: #f6383a;
+    color: #f6383a
+}
+
+.kc_fab_main_btn {
+    background-color: #F44336;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #F44336;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 36px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: .3s;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.kc_fab_main_btn:focus {
+    transform: scale(1.1);
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.floating-button-container {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    right: 40px;
+    padding-bottom: 20px;
+    text-align: right;
+    padding-right: 20px;
+    bottom: 0;
+    margin-bottom: 3.8rem;
+}
+
+p.regist-link {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+}

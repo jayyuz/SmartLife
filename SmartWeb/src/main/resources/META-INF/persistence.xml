@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="defaultPersistenceUnit" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>com.gaussic.model.DevicesEntity</class>
+        <class>com.gaussic.model.UserEntity</class>
+        <class>com.gaussic.model.ProductdevicesEntity</class>
+        <properties>
+            <!-- 使用MySQL方言 -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+            <!-- 数据库连接的URL地址 -->
+            <property name="hibernate.connection.url"
+                      value="jdbc:mysql://localhost:3306/smart"/>
+            <!-- 数据库连接的驱动 -->
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <!-- 数据库连接的用户名 -->
+            <property name="hibernate.connection.username" value="root"/>
+            <!-- 数据库连接的密码 -->
+            <property name="hibernate.connection.password" value="123456"/>
+            <!-- 显示SQL语句 -->
+            <property name="hibernate.show_sql" value="true"/>
+
+            <property name="hibernate.connection.useUnicode" value="true"/>
+            <property name="hibernate.connection.characterEncoding" value="UTF-8"/>
+            <!-- 在显示SQL语句时格式化语句 -->
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.use_sql_comments" value="false"/>
+            <!-- 自动输出schema创建DDL语句 -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+
+
+
+            <!-- 下面开始c3p0的配置 -->
+            <property name="hibernate.connection.provider_class" value="org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider"/>
+            <!-- 最小连接数 -->
+            <property name="hibernate.c3p0.min_size" value="1"/>
+            <!-- 最大连接数 -->
+            <property name="hibernate.c3p0.max_size" value="20"/>
+            <!-- 获得连接的超时时间,如果超过这个时间,会抛出异常，单位（毫秒） -->
+            <property name="hibernate.c3p0.timeout" value="5000"/>
+            <!-- 指定连接池里最大缓存多少个Statement对象 -->
+            <property name="hibernate.c3p0.max_statements" value="100"/>
+            <!-- 每隔3000秒检查连接池里的空闲连接 ，单位是（秒）-->
+            <property name="hibernate.c3p0.idle_test_period" value="3000"/>
+            <!-- 当连接池里面的连接用完的时候，C3P0自动一次性获取多少个新的连接 -->
+            <property name="hibernate.c3p0.acquire_increment" value="2"/>
+            <!-- 每次都验证连接是否可用 -->
+            <property name="hibernate.c3p0.validate" value="true"/>
+
+
+        </properties>
+
+    </persistence-unit>
+
+</persistence>

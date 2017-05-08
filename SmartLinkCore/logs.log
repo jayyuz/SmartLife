@@ -1,0 +1,45 @@
+2017-02-19 17:23:04  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2017-02-19 17:23:04  [ main:64 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 16
+2017-02-19 17:23:04  [ main:204 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2017-02-19 17:23:04  [ main:212 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2017-02-19 17:23:04  [ main:214 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2017-02-19 17:23:04  [ main:217 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2017-02-19 17:23:04  [ main:218 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+2017-02-19 17:23:04  [ main:222 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2017-02-19 17:23:04  [ main:224 ] - [ DEBUG ]  Platform: Windows
+2017-02-19 17:23:04  [ main:232 ] - [ DEBUG ]  Java version: 8
+2017-02-19 17:23:04  [ main:233 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2017-02-19 17:23:04  [ main:234 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2017-02-19 17:23:04  [ main:238 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2017-02-19 17:23:04  [ main:242 ] - [ DEBUG ]  Javassist: unavailable
+2017-02-19 17:23:04  [ main:243 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2017-02-19 17:23:04  [ main:245 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2017-02-19 17:23:04  [ main:253 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-02-19 17:23:04  [ main:254 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2017-02-19 17:23:04  [ main:255 ] - [ DEBUG ]  io.netty.maxDirectMemory: 1892155392 bytes
+2017-02-19 17:23:04  [ main:314 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2017-02-19 17:23:04  [ main:315 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-02-19 17:23:05  [ main:1292 ] - [ DEBUG ]  -Dio.netty.processId: 4772 (auto-detected)
+2017-02-19 17:23:06  [ main:1821 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-02-19 17:23:06  [ main:1824 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+2017-02-19 17:23:06  [ main:2542 ] - [ DEBUG ]  -Dio.netty.machineId: 78:0c:b8:ff:fe:9a:2d:97 (auto-detected)
+2017-02-19 17:23:06  [ main:2581 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x4e122e025bf313e3
+2017-02-19 17:23:06  [ main:2732 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+2017-02-19 17:23:06  [ main:2733 ] - [ DEBUG ]  -Dio.netty.leakDetection.maxRecords: 4
+2017-02-19 17:23:07  [ main:2921 ] - [ DEBUG ]  -Dio.netty.allocator.numHeapArenas: 16
+2017-02-19 17:23:07  [ main:2922 ] - [ DEBUG ]  -Dio.netty.allocator.numDirectArenas: 16
+2017-02-19 17:23:07  [ main:2923 ] - [ DEBUG ]  -Dio.netty.allocator.pageSize: 8192
+2017-02-19 17:23:07  [ main:2924 ] - [ DEBUG ]  -Dio.netty.allocator.maxOrder: 11
+2017-02-19 17:23:07  [ main:2925 ] - [ DEBUG ]  -Dio.netty.allocator.chunkSize: 16777216
+2017-02-19 17:23:07  [ main:2926 ] - [ DEBUG ]  -Dio.netty.allocator.tinyCacheSize: 512
+2017-02-19 17:23:07  [ main:2928 ] - [ DEBUG ]  -Dio.netty.allocator.smallCacheSize: 256
+2017-02-19 17:23:07  [ main:2929 ] - [ DEBUG ]  -Dio.netty.allocator.normalCacheSize: 64
+2017-02-19 17:23:07  [ main:2930 ] - [ DEBUG ]  -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-02-19 17:23:07  [ main:2931 ] - [ DEBUG ]  -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-02-19 17:23:07  [ main:2979 ] - [ DEBUG ]  -Dio.netty.allocator.type: pooled
+2017-02-19 17:23:07  [ main:2981 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-02-19 17:23:07  [ main:2982 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-02-19 17:23:07  [ main:3057 ] - [ DEBUG ]  server start!
+2017-02-19 17:23:07  [ main:3286 ] - [ DEBUG ]  [APP][1487496187474]: {"sequence":1,"content":{"Action":"UserLogin","UserMobileNO":"13249089091","UserPassword":"123456"}}
+2017-02-19 17:23:07  [ main:3292 ] - [ DEBUG ]  [APP][1487496187479]: {"sequence":1,"content":{"Action":"DevLogin","DevId":"201610010000001","SN":"201610010000001"}}
+2017-02-19 17:23:07  [ main:3301 ] - [ DEBUG ]  [APP][1487496187489]: {"sequence":1,"content":{"Action":"PushToUser","DevId":"201610010000001","Content":"{\"state\":false}"}}

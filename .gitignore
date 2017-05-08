@@ -1,0 +1,15 @@
+SmartLinkCore/out/artifacts/SmartFun3/SmartFun3.jar
+SmartLinkCore/out/artifacts/SmartFun_jar/homeorangepismartlinklog
+SmartLinkCore/out/artifacts/SmartFun_jar/SmartFun-linux.jar
+*.iml
+SmartLinkCore/SmartFun.iml
+*.o
+SmartSwitch/dev/app/user/.output/eagle/debug/obj/tcp_client.d
+*.d
+SmartSwitch/dev/app/user/.output/eagle/debug/lib/libuser.a
+*.12424
+SmartSwitch/dev/app/user/.output/eagle/debug/obj/tcp_client.d.1268
+*.19288
+*.19596
+*.212
+*.bin
