@@ -27,7 +27,6 @@ public class NettyServerBootstrap {
     private int port;
     private SocketChannel socketChannel;
 
-    private static final String IP = "127.0.0.1";
     private static final int PORT = 9999;
 
     private static Logger logger = Logger.getLogger(NettyServerBootstrap.class);
