@@ -21,11 +21,12 @@ import io.netty.util.CharsetUtil;
 import org.apache.log4j.Logger;
 
 /**
- * Created by yaozb on 15-4-11.
+ *
+ * Created by Jaesoon on 15-4-11.
+ *
  */
 public class NettyServerBootstrap {
     private int port;
-    private SocketChannel socketChannel;
 
     private static final int PORT = 9999;
 
@@ -33,11 +34,11 @@ public class NettyServerBootstrap {
     /**
      * 用于分配处理业务线程的线程组个数
      */
-    protected static final int BIZGROUPSIZE = Runtime.getRuntime().availableProcessors() * 2; //默认
+    private static final int BIZGROUPSIZE = Runtime.getRuntime().availableProcessors() * 2; //默认
     /**
      * 业务出现线程大小
      */
-    protected static final int BIZTHREADSIZE = 4;
+    private static final int BIZTHREADSIZE = 4;
     /*
      * NioEventLoopGroup实际上就是个线程池,
      * NioEventLoopGroup在后台启动了n个NioEventLoop来处理Channel事件,
@@ -47,7 +48,7 @@ public class NettyServerBootstrap {
     private static final EventLoopGroup bossGroup = new NioEventLoopGroup(BIZGROUPSIZE);
     private static final EventLoopGroup workerGroup = new NioEventLoopGroup(BIZTHREADSIZE);
 
-    public NettyServerBootstrap(int port) throws InterruptedException {
+    private NettyServerBootstrap(int port) throws InterruptedException {
         this.port = port;
         bind();
     }
